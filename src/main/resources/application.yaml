@@ -1,0 +1,24 @@
+spring:
+  ai:
+    openai:
+      api-key: open-ai-api-key
+      chat:
+        options:
+          model: gpt-4o
+assembly-ai-api:
+  key: assembly-ai-api-key
+google-books:
+  api:
+    url: https://www.googleapis.com/books/v1/volumes
+    key: google-books-api-key
+  genres:
+    travel: "travel"
+    technology: "technology"
+    science-fiction: "science+fiction"
+    sci-fi: "science+fiction"
+    self-help: "self+help"
+    romance: "romance"
+    drama: "drama"
+    horror: "horror"
+    philosophy: "philosophy"
+    education: "education"
