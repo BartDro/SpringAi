@@ -1,0 +1,9 @@
+POST http://localhost:8080/ai-api/audio/prompt
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="audio"; filename="sciFiBooksPrompt.mp3"
+Content-Type: audio/mpeg
+
+< scifiBooksPrompt.mp3
+--boundary
